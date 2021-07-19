@@ -1,7 +1,7 @@
 .row {
     max-width: $grid-width;
     //background-color: #eee;
-    margin: 0 auto; //center block ele inside other block element
+    margin: 0 auto; //center block element inside onther block element
     
     &:not(:last-child) {//select everythings except the last child
         margin-bottom: $gutter-vertical;
